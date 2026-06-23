@@ -195,10 +195,10 @@
 
         <nav>
             <ul class="navbar">
-                <li><a class="nav-link" href="home.html">Home</a></li>
-                <li><a class="nav-link" href="football.html">Football</a></li>
-                <li><a class="nav-link" href="cricket.html">Cricket</a></li>
-                <li><a class="nav-link" href="rugby.html">Rugby</a></li>
+                <li><a class="nav-link" href="PROJECT-1.php">Home</a></li>
+                <li><a class="nav-link" href="football.php">Football</a></li>
+                <li><a class="nav-link" href="cricket.php">Cricket</a></li>
+                <li><a class="nav-link" href="RUGBY.php">Rugby</a></li>
             </ul>
         </nav>
 
@@ -222,6 +222,7 @@
             <img src="./images/rugby-player.jpg" />
 
         </div>
+        
 
     </section>
 
@@ -462,10 +463,10 @@
             Created by Simran | copyright 2026
         </p>
         <div>
-            <a href="./home.html">Home</a>
-            <a href="./Football.html">Football</a>
-            <a href="./cricket.html">Cricket</a>
-            <a href="./RUGBY.html">Rugby</a>
+            <a href="./PROJECT-1.php">Home</a>
+            <a href="./Football.php">Football</a>
+            <a href="./cricket.php">Cricket</a>
+            <a href="./RUGBY.php">Rugby</a>
 
 
         </div>
