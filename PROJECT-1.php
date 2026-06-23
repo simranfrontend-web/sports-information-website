@@ -196,7 +196,7 @@
         <nav>
             <ul class="navbar">
                 <li><a class="nav-link" href="PROJECT-1.php">Home</a></li>
-                <li><a class="nav-link" href="football.php">Football</a></li>
+                <li><a class="nav-link" href="Football.php">Football</a></li>
                 <li><a class="nav-link" href="cricket.php">Cricket</a></li>
                 <li><a class="nav-link" href="RUGBY.php">Rugby</a></li>
             </ul>
