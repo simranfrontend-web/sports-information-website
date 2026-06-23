@@ -5,50 +5,138 @@
   <title>Bootstrap 5 Website Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
   <style>
-    .fakeimg {
-      height: 200px;
-      background: #aaa;
+ body {
+      background: #f4f7fb;
     }
 
-    h2 {
-      color: blue;
-      font-style: italic;
+
+   
+    .navbar {
+      border: 0px solid red;
+      display: flex;
+      justify-content: space-between;
+      background: #333d68;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+
+ .logo {
+      border: 0px solid green;
+      margin-left: 100px;
+      color: white;
+      font-size: larger;
+    }
+    ul {
+      border: 0px solid blue;
+      display: flex;
+      gap: 20px;
+      margin-right: 100px;
+      list-style: none;
+      color: white;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+    
+    .nav-link:hover {
+      color: aqua;
+    }
+    .hero {
+      background: url("./images/Cricket-World-Cup-2023-Schedule-Teams-Venue.jpg");
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      height: 750px;
+    }
+    
+    .hero p {
+      font-size: 30px;
+      font-weight: 900;
+      color: white;
+      margin-top: 200px;
+      margin-left: 200px;
+    }
+      .content-title {
+      font-size: 40px;
+      font-weight: 700;
+      color: #071952;
 
     }
+
+   
+
+     .video-box iframe {
+      border-radius: 20px;
+    }
+  .content-card {
+      background: white;
+      padding: 35px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      font-size: 17px;
+      line-height: 1.8;
+      width: 95%;
+    }
+
+  
+ footer{
+      background:#071952;
+      color: white;
+      padding: 30px;
+      margin-top: 60px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    
+    }
+
+    footer a{
+      color:white;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    footer a:hover{
+       color: #37824d;
+       font-size: large;
+    }
+
+
+
 
   
   </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container-fluid">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="./PROJECT-1.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./Football.php">Football</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./cricket.php">Cricket</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="./RUGBY.php">Rugby</a>
-        </li>
-      </ul>
-    </div>
+<nav class="navbar">
+    <h2 class="logo">🏏Cricket World Cup Super League</h2>
+    <ul>
+      <li><a class="nav-link" href="PROJECT-1.php">Home</a></li>
+      <li><a class="nav-link" href="Football.php">Football</a></li>
+      <li><a class="nav-link" href="cricket.php">Cricket</a></li>
+      <li><a class="nav-link" href="RUGBY.php">Rugby</a></li>
+    </ul>
+    <!-- inline elements
+        <span>Simran's day</span>
+         <span>Ankkit 's day</span> -->
   </nav>
-  <div class="p-5 bg-primary text-white text-center">
-    <img src="./images/Cricket-World-Cup-2023-Schedule-Teams-Venue.jpg" class="w-100" alt="">
-    <h1>ICC Cricket World Cup Super League 2020-2022/23 </h1>
-    <p1>India, being the hosts, qualify automatically for the event. The Super League will rank 13 teams – 12 Full
-      Members of the ICC and the Netherlands. The Netherlands qualified for the Super League by winning the ICC World
-      Cricket League Championship in 2017</p1>
-  </div>
+     <section class="hero">
+
+    <div>
+
+
+      <p>
+    </p>
+    </div>
+
+  </section>
 
   
 
@@ -56,17 +144,18 @@
     <div class="row">
 
       <div class="col-sm-12">
+<h2 class="content-title mt-5">Cricket</h2>
 
-        <h2 class="mt-5">Cricket</h2>
-
-        <div>
-          <iframe width="1200" height="315" src="https://www.youtube.com/embed/ORtEfVgwGpM" title="YouTube video player"
+        <div class="video-box">
+          <iframe width="1200" height="315" src="https://www.youtube.com/embed/VS72gbIBcOs?si=9xgiY1mNDoDtjXh0" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-        </div><br>
-        <h2>2020–2023 ICC Cricket World Cup Super League</h2>
-        <hr><br>
+        </div>
+                 <h2 class="content-title mt-5">2020–2023 ICC Cricket World Cup Super League</h2>
+          <div class="content-card">
+        
+        
         <p>The 2020–23 ICC Men's Cricket World Cup Super League[1][2] is the ongoing inaugural edition of the ICC
           Cricket World Cup Super League, a One Day International (ODI) league.[3] The league is taking place from July
           2020 to May 2023,[4] and serves as part of the 2023 Cricket World Cup qualification process.[5]
@@ -97,8 +186,8 @@
           ranked team in this Super League and the champions of the 2019–22 ICC Cricket World Cup League 2 will take
           part in World Cup Qualifier, where the better team will take the 13th spot in the next Super League while the
           team ranked lower will play in the next League 2.[17][18]</p><br>
-        <h2>Format</h2>
-        <hr><br>
+        <h2 class="content-title">Format</h2>
+        
         <p>The tournament is a partial round-robin league and will be played over two years. Each team will play eight
           other opponents, four at home and four away, in series consisting of three ODI matches. This means that a
           given team will not face all other opponents in their group, but all teams will play the same number of
@@ -115,8 +204,9 @@
           for each over it is behind.[19]
           Tied matches will be decided by a Super Over. If a Super Over is a tie, subsequent Super Overs shall be played
           until there is a winner.[20]</p><br>
-        <h2>COVID-19 pandemic</h2>
-        <hr><br>
+        <h2 class="content-title">COVID-19 pandemic</h2>
+      
+        
         <p>The COVID-19 pandemic began before the start of the league, which was originally scheduled for May 2020 to
           March 2022, and resulted in no international cricket being played from March to July 2020.[26] All Super
           League fixtures scheduled for 2020 were postponed or rescheduled with considerations for pandemic-related
@@ -145,14 +235,20 @@
     </div>
   </div>
 
-  <div class="mt-5 p-4 bg-dark text-white textBycenter w-100 text-center">
-    <p><em>Created by Simran  &nbsp|&nbsp  </em>
-      Copyrights@2023</p>
-    <a href="./PROJECT-1.php">Home</a>
-    <a href="./Football.php">Football</a>
-    <a href="./cricket.php">Cricket</a>
-    <a href="./RUGBY.php">Rugby</a>
-  </div>
+  <footer >
+    <p>
+      Created by Simran | copyright 2026
+    </p>
+
+    <div>
+      <a href="./PROJECT-1.php">Home</a>
+      <a href="./Football.php">Football</a>
+      <a href="./cricket.php">Cricket</a>
+      <a href="./RUGBY.php">Rugby</a>
+    </div>
+
+  </footer>
+
 
 </body>
 
